@@ -58,41 +58,27 @@
       <div id="choose-your-options" class="col-md-8">
         <div id="data-options">
           <h3>How much data would you like?</h3>
-          <div class="input-group mb-3">
-            <select class="custom-select" id="inputGroupSelect01">
-              <option selected>Choose...</option>
-              <option value="1">1GB</option>
-              <option value="2">6GB</option>
-              <option value="3">10GB</option>
-              <option value="3">20GB</option>
-            </select>
-          </div><!-- /.input-group -->
+              <button data-gb="1GB" data-price="14">1GB</button>
+              <button data-gb="6GB" data-price="18">6GB </button>
+              <button data-gb="10GB" data-price="20">10GB</button>
+              <button data-gb="20GB" data-price="30">20GB</button>
         </div><!-- /#data-options -->
 
         <div id="minutes-options">
           <h3>How many minutes would you like?</h3>
-          <div class="input-group mb-3">
-            <select class="custom-select" id="inputGroupSelect01">
-              <option selected>Choose...</option>
-              <option value="1">180 minutes</option>
-              <option value="2">300 minutes</option>
-              <option value="3">600 minutes</option>
-              <option value="3">Unlimited minutes</option>
-            </select>
-          </div><!-- /.input-group -->
+            <button> 180 minutes</button>
+            <button> 300 minutes</button>
+            <button> 600 minutes</button>
+            <button> Unlimited minutes</button>
         </div><!-- /#minutes-options -->
 
         <div id="payment-options">
           <h3>How would you like to pay?</h3>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary">
-              <input type="checkbox" autocomplete="off"> Monthly
-            </label>
-            <label class="btn btn-secondary">
-              <input type="checkbox" autocomplete="off"> Annually
-            </label>
-          </div><!-- /.btn-group -->
+
+              <button>Monthly </button>
+                <button> Annually </button>
         </div><!-- /#payment-options -->
+
         <div>
           <p>TOTAL:<span id="total"></span></p>
           </div>

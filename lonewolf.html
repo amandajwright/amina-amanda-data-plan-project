@@ -31,7 +31,8 @@
       <img src="images/logo2.jpg" alt="Grey and blue logo in shape of letter a." class="col-md-3 img-fluid rounded-circle" />
       <h1 class="display-1 col-md-9">Double A Mobile</h1>
     </div><!-- /.row -->
-    <h2 class="display-3">Lone Wolf</h2><h3>Data only sim package</h3>
+    <h2 class="display-3">Lone Wolf</h2>
+    <h3>Data only sim package</h3>
   </div><!-- /.container-fluid jumbotron -->
 </header>
 
@@ -42,47 +43,36 @@
       <div id="lonewolf" class="col-md-4">
         <a href="lonewolf.html"><img src="images/lonewolf.jpg" /> </a>
         <p>Choose GB per month:</p>
-            <ul>
-              <li>
-                3GB (£15.00),
-              </li>
-              <li>
-                6GB (£17.00),
-              </li>
-              <li>
-                15GB (£22.00),
-              </li>
-              <li>
-                30GB (£27.00),
-              </li>
-            </ul>
-          </li>
+        <ul>
+          <li>3GB (£15),</li>
+          <li>6GB (£17),</li>
+          <li>15GB (£22),</li>
+          <li>30GB (£27),</li>
         </ul>
       </div><!-- /#lonewolf -->
       <div id="choose-your-options" class="col-md-8">
+
         <div id="data-options">
           <h3>How much data would you like?</h3>
-          <div class="input-group mb-3">
-            <select class="custom-select" id="inputGroupSelect01">
-              <option selected>Choose...</option>
-              <option value="1">3GB</option>
-              <option value="2">6GB</option>
-              <option value="3">15GB</option>
-              <option value="3">30GB</option>
-            </select>
-          </div><!-- /.input-group -->
+
+
+              <button data-gb="3GB" data-price="15">3GB</button>
+              <button data-gb="6GB" data-price="17">6GB </button>
+              <button data-gb="15GB" data-price="22">15GB</button>
+              <button data-gb="30GB" data-price="27">30GB</button>
+
+
         </div><!-- /#data-options -->
         <div id="payment-options">
           <h3>How would you like to pay?</h3>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary">
-              <input type="checkbox" autocomplete="off"> Monthly
-            </label>
-            <label class="btn btn-secondary">
-              <input type="checkbox" autocomplete="off"> Annually
-            </label>
-          </div><!-- /.btn-group -->
+
+              <button>Monthly </button>
+                <button> Annually </button>
+
         </div><!-- /#payment-options -->
+
+
+
         <div>
           <p>TOTAL:<span id="total"></span></p>
         </div>
