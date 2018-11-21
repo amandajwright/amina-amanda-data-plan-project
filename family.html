@@ -59,36 +59,35 @@
         <div id="data-options">
           <h3>How much data would you like?</h3>
 
-
-          <button data-gb="1GB" data-price="14">1GB</button>
-          <button data-gb="10GB" data-price="20">10GB </button>
-          <button data-gb="20GB" data-price="30">20GB</button>
-          <button data-gb="40GB" data-price="40">40GB</button>
+          <button class= "family-gb-choice" data-gb="1GB" data-price="14">1GB</button>
+          <button class= "family-gb-choice" data-gb="10GB" data-price="20">10GB </button>
+          <button class= "family-gb-choice" data-gb="20GB" data-price="30">20GB</button>
+          <button class= "family-gb-choice" data-gb="40GB" data-price="40">40GB</button>
         </div><!-- /#data-options -->
 
 
         <div id="sim-options">
           <h3>How many sim cards would you like?</h3>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
+            <button class="sim-choice" data-sim="1">1</button>
+            <button class="sim-choice" data-sim="2">2</button>
+            <button class="sim-choice" data-sim="3">3</button>
+            <button class="sim-choice" data-sim="4">4</button>
+            <button class="sim-choice" data-sim="5">5</button>
         </div><!-- /#sim-options -->
 
         <div id="payment-options">
           <h3>How would you like to pay?</h3>
 
-              <button>Monthly </button>
-                <button> Annually </button>
+              <button value="month" class="family-payment-choice">Monthly</button>
+                <button value="annual" class="family-payment-choice"> Annually</button>
 
         </div><!-- /#payment-options -->
 
         <div>
-          <p>TOTAL:<span id="total"></span></p>
+          <p>TOTAL: &pound; <span id="total"></span></p>
         </div>
         <div>
-          <button class="btn btn-lg">CHECKOUT</button>
+          <button class="calculate">CALCULATE TOTAL</button>
         </div>
       </div><!-- /#choose-your-options -->
     </div><!-- /body .row -->
