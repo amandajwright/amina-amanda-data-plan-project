@@ -56,28 +56,29 @@
           <h3>How much data would you like?</h3>
 
 
-              <button data-gb="3GB" data-price="15">3GB</button>
-              <button data-gb="6GB" data-price="17">6GB </button>
-              <button data-gb="15GB" data-price="22">15GB</button>
-              <button data-gb="30GB" data-price="27">30GB</button>
+              <button class="wolf-gb-choice" data-gb="3GB" data-price="15">3GB</button>
+              <button class="wolf-gb-choice" data-gb="6GB" data-price="17">6GB </button>
+              <button class="wolf-gb-choice" data-gb="15GB" data-price="22">15GB</button>
+              <button class="wolf-gb-choice" data-gb="30GB" data-price="27">30GB</button>
 
 
         </div><!-- /#data-options -->
         <div id="payment-options">
           <h3>How would you like to pay?</h3>
 
-              <button>Monthly </button>
-                <button> Annually </button>
+              <button class="wolf-payment-choice" value="month">Monthly </button>
+                <button class="wolf-payment-choice" value="annual">Annually </button>
+
 
         </div><!-- /#payment-options -->
 
 
 
         <div>
-          <p>TOTAL:<span id="total"></span></p>
+          <p>TOTAL: &pound; <span id="total"></span></p>
         </div>
         <div>
-          <button class="btn btn-lg">CHECKOUT</button>
+          <button class="calculate">CALCULATE TOTAL</button>
         </div>
       </div><!-- /#choose-your-options -->
     </div><!-- /body .row -->
