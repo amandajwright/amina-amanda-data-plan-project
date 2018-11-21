@@ -13,6 +13,9 @@ body, .navbar {
   margin-bottom: 20px;
   width: 100%;
 }
+.custom-select {
+  width: 100%;
+}
 footer {
   background-color: grey;
 }
