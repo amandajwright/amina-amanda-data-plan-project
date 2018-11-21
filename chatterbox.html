@@ -66,10 +66,10 @@
 
         <div id="minutes-options">
           <h3>How many minutes would you like?</h3>
-            <button class="min-choice"> 180 minutes</button>
-            <button class="min-choice"> 300 minutes</button>
-            <button class="min-choice"> 600 minutes</button>
-            <button class="min-choice"> Unlimited minutes</button>
+            <button data-min="180" class="min-choice"> 180 minutes</button>
+            <button data-min="300" class="min-choice"> 300 minutes</button>
+            <button data-min="600" class="min-choice"> 600 minutes</button>
+            <button data-min="unlimited" class="min-choice"> Unlimited minutes</button>
         </div><!-- /#minutes-options -->
 
         <div id="payment-options">
@@ -81,11 +81,11 @@
         </div><!-- /#payment-options -->
 
         <div>
-          <p>TOTAL:<span id="total"></span></p>
+            <p>TOTAL: &pound; <span id="total"></span></p>
           </div>
           <div>
-            <button class="btn btn-lg">CHECKOUT</button>
-            </div>
+            <button class="calculate">CALCULATE TOTAL</button>
+          </div>
       </div><!-- /#choose-your-options -->
     </div><!-- /body .row -->
   </div><!-- /body .container -->
