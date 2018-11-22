@@ -5,15 +5,21 @@ var total_chatterbox = 0;
 var total_inc_mins = 0;
 
 $(".chatterbox_gb-choice").click(function(event) {
+  $(".chatterbox_gb-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
   chatterbox_price = parseInt(this.getAttribute("data-price"));
 });
 
 $(".min-choice").click(function(event) {
-  chatterbox_min = this.getAttribute("data-min");
+  $(".min-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
+chatterbox_min = this.getAttribute("data-min");
 });
 
 $(".chatter-choice-payment").click(function(event) {
-  choice_payment_chatterbox = (this.getAttribute("value"));
+  $(".chatter-choice-payment").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
+choice_payment_chatterbox = (this.getAttribute("value"));
 });
 
 $(".calculate").click(function(event) {

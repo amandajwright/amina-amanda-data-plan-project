@@ -9,10 +9,12 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/custom.css" />
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 
-<header id="header">
-  <div class="container-fluid jumbotron text-center">
+<body id="package-page">
+  <header id="header">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Menu</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,18 +29,18 @@
         </div>
       </div>
     </nav>
-    <div class="row">
-      <img src="images/logo2.jpg" alt="Grey and blue logo in shape of letter a." class="col-md-3 img-fluid rounded-circle" />
-      <h1 class="display-1 col-md-9">Double A Mobile</h1>
-    </div><!-- /.row -->
-    <h2 class="display-3">Lone Wolf</h2>
-    <h3>Data only sim package</h3>
-  </div><!-- /.container-fluid jumbotron -->
-</header>
+    <div class="container-fluid jumbotron text-center">
 
-<body>
 
-  <div class="container text-center">
+      <h1 class="display-1">Double A Mobile</h1>
+      <h2 class="display-3">Lone Wolf</h2>
+
+    </div><!-- /.container-fluid jumbotron -->
+  </header>
+
+
+
+  <div id="package-body" class="container text-center">
     <div class="row">
       <div id="lonewolf" class="col-md-4">
         <a href="lonewolf.html"><img src="images/lonewolf.jpg" /> </a>
@@ -56,18 +58,18 @@
           <h3>How much data would you like?</h3>
 
 
-              <button class="wolf-gb-choice" data-gb="3GB" data-price="15">3GB</button>
-              <button class="wolf-gb-choice" data-gb="6GB" data-price="17">6GB </button>
-              <button class="wolf-gb-choice" data-gb="15GB" data-price="22">15GB</button>
-              <button class="wolf-gb-choice" data-gb="30GB" data-price="27">30GB</button>
+          <button class="wolf-gb-choice" data-gb="3GB" data-price="15">3GB</button>
+          <button class="wolf-gb-choice" data-gb="6GB" data-price="17">6GB </button>
+          <button class="wolf-gb-choice" data-gb="15GB" data-price="22">15GB</button>
+          <button class="wolf-gb-choice" data-gb="30GB" data-price="27">30GB</button>
 
 
         </div><!-- /#data-options -->
         <div id="payment-options">
           <h3>How would you like to pay?</h3>
 
-              <button class="wolf-payment-choice" value="month-lonewolf">Monthly </button>
-                <button class="wolf-payment-choice" value="annual-lonewolf">Annually </button>
+          <button class="wolf-payment-choice" value="month-lonewolf">Monthly </button>
+          <button class="wolf-payment-choice" value="annual-lonewolf">Annually </button>
 
 
         </div><!-- /#payment-options -->
@@ -84,30 +86,34 @@
     </div><!-- /body .row -->
   </div><!-- /body .container -->
 
+  <footer>
+    <div class="container-fluid text-center">
+      <div class="social-buttons">
+        <a href="" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
+        <a href="" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
+        <a href="" class="btn btn-primary btn-lg btn-pinterest">Pinterest</a>
+      </div><!-- /.social-buttons -->
+
+      <div class="row">
+        <div class="bottom-text col-md-6 offset-md-3">
+          <a href="#header">Back to top</a>
+          <p>
+            Double A registered office: BT Center Newgate Street EC1A 7AJ &copy; Double A 2018
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img src="images/logo2.jpg" alt="Grey and blue logo in shape of letter a." class=" img-fluid rounded-circle" />
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /footer .container-fluid -->
+
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/wolf-calculator.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-  <div class="container-fluid text-center">
-    <a href="" class="btn btn-primary btn-lg btn-twitter">Twitter</a>
-    <a href="" class="btn btn-primary btn-lg btn-facebook">Facebook</a>
-    <a href="" class="btn btn-primary btn-lg btn-pinterest">Pinterest</a>
-    <ul>
-      <li>
-        <a href="sitemap.html">Sitemap</a>
-      </li>
-      <li>
-        <a href="#header">Back to top</a>
-      </li>
-    </ul>
-    <p>
-      Double A registered office: BT Center Newgate Street EC1A 7AJ &copy; Double A 2018
-    </p>
-  </div>
-  <!-- /footer .container-fluid -->
-
-</footer>
-
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="js/wolf-calculator.js"></script>
 
 </html>

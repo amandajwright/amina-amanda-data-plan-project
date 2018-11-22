@@ -5,15 +5,21 @@ var total_family = 0;
 var total_inc_sims = 0;
 
 $(".family-gb-choice").click(function(event) {
+  $(".family-gb-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
   family_price = parseInt(this.getAttribute("data-price"));
 });
 
 $(".sim-choice").click(function(event) {
+  $(".sim-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
   family_sim = parseInt(this.getAttribute("data-sim"));
 });
 
 $(".family-payment-choice").click(function(event) {
-  choice_payment_family = this.getAttribute("value");
+  $(".family-payment-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
+choice_payment_family = this.getAttribute("value");
 });
 
 $(".calculate").click(function(event) {

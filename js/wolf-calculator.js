@@ -3,11 +3,15 @@ var choice_payment_wolf = '';
 var total_wolf = 0;
 
 $(".wolf-gb-choice").click(function(event) {
-  wolf_price = parseInt(this.getAttribute("data-price"));
+  $(".wolf-gb-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
+wolf_price = parseInt(this.getAttribute("data-price"));
 });
 
 $(".wolf-payment-choice").click(function(event) {
-  choice_payment_wolf = (this.getAttribute("value"));
+  $(".wolf-payment-choice").removeClass('button-clicked');
+  $(this).addClass('button-clicked');
+choice_payment_wolf = (this.getAttribute("value"));
 });
 
 $(".calculate-wolf").click(function(event) {

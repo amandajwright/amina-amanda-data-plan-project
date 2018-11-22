@@ -2,33 +2,31 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+body, .navbar {
+  background-color: #43BCCD;
+}
+
 header, .jumbotron {
   background-color: white;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .jumbotron {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-body, .navbar {
-  background-color: #43BCCD;
 
-}
-
-body {
-  font-family: 'Arvo', serif;
-  font-weight: bold;
-}
-
-h1 {
-  font-family: 'Black Han Sans', sans-serif;
-}
-
-#carouselExampleIndicators {
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
 .display-1 {
+  font-family: 'Black Han Sans', sans-serif;
   color:#662E9B;
   font-size: 135px;
 }
@@ -38,20 +36,37 @@ h1 {
     font-size: 160px;
   }
 }
-#tagline {
-  width:100%;
+
+button {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 30px;
 }
-.navbar {
-  margin-bottom: 20px;
-  width: 100%;
-}
-.custom-select {
-  width: 100%;
-}
+
 footer {
   background-color: #662E9B;
   padding-top: 40px;
   padding-bottom: 30px;
+}
+
+.back-to-top {
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* homepage specific */
+#carouselExampleIndicators {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#tagline {
+  width:100%;
+}
+
+.custom-select {
+  width: 100%;
 }
 
 .btn-primary {
@@ -64,29 +79,11 @@ footer {
   background-color: #43BCCD;
 }
 
-button {
-  font-family: 'Arvo', serif;
-  font-weight: bold;
-  font-size: 30px;
-}
-
 .package-button {
   color: black;
 }
-
 .package-button:hover {
   color: #662E9B;
-}
-
-.back-to-top {
-  width:100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.back-to-top a, p {
-  color: white;
-  font-size: 20px;
 }
 
 .description {
@@ -95,4 +92,56 @@ button {
 
 .carousel-item li {
   font-size: 25px;
+}
+
+.back-to-top a, p {
+  color: white;
+  font-size: 20px;
+}
+
+/* Package specific */
+#package-page .jumbotron {
+  padding: 10px 0;
+}
+
+#package-page .display-1 {
+  font-size: 130px;
+}
+
+#package-body {
+  padding: 20px 0;
+}
+
+.wolf-gb-choice, .chatterbox_gb-choice, .family-gb-choice, .min-choice, .sim-choice, .wolf-payment-choice, .chatter-choice-payment, .family-payment-choice {
+  color:#662E9B;
+}
+
+.total-amount {
+  font-size: 40px;
+}
+.checkout {
+  font-size: 50px;
+}
+
+.social-buttons {
+  width: 100%;
+}
+
+footer img {
+  height:180px;
+  width:180px;
+}
+
+.bottom-text {
+  padding-top: 60px;
+}
+
+.bottom-text a, p {
+  color: white;
+  font-size: 20px;
+}
+
+.button-clicked, .button-clicked button {
+  background-color: grey;
+  color:white;
 }
