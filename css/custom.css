@@ -4,7 +4,11 @@ img {
 
 header, .jumbotron {
   background-color: white;
+}
 
+.jumbotron {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 body, .navbar {
   background-color: #43BCCD;
@@ -25,8 +29,14 @@ h1 {
   padding-bottom: 50px;
 }
 .display-1 {
-  font-size: 160px;
   color:#662E9B;
+  font-size: 135px;
+}
+
+@media screen and (min-width: 768px) {
+.display-1 {
+    font-size: 160px;
+  }
 }
 #tagline {
   width:100%;
@@ -77,4 +87,12 @@ button {
 .back-to-top a, p {
   color: white;
   font-size: 20px;
+}
+
+.description {
+  font-size: 35px;
+}
+
+.carousel-item li {
+  font-size: 25px;
 }
