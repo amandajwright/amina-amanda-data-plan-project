@@ -43,3 +43,38 @@ footer {
   padding-top: 40px;
   padding-bottom: 30px;
 }
+
+.btn-primary {
+  background-color: grey;
+  border-color: #43BCCD;
+  margin-left: 40px;
+}
+
+.btn-primary:hover {
+  background-color: #43BCCD;
+}
+
+button {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.package-button {
+  color: black;
+}
+
+.package-button:hover {
+  color: #662E9B;
+}
+
+.back-to-top {
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.back-to-top a, p {
+  color: white;
+  font-size: 20px;
+}
