@@ -1,15 +1,37 @@
 img {
   max-width: 100%;
 }
-.jumbotron {
+
+header, .jumbotron {
   background-color: white;
+
 }
 body, .navbar {
-  background-color: #4682B4;
+  background-color: #43BCCD;
+
+}
+
+body {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+#carouselExampleIndicators {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.display-1 {
+  font-size: 160px;
+  color:#662E9B;
+}
+#tagline {
+  width:100%;
 }
 .navbar {
-  margin-right: 0;
-  margin-left: 0;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -17,5 +39,7 @@ body, .navbar {
   width: 100%;
 }
 footer {
-  background-color: grey;
+  background-color: #662E9B;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
