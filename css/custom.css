@@ -145,3 +145,30 @@ footer img {
   background-color: grey;
   color:white;
 }
+
+#disclaimer {
+  font-style: italic;
+}
+
+#choose-your-options h3 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#choose-your-options button {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+
+.checkout {
+  background-color: green;
+  color: white;
+  padding: 20px;
+}
+
+.checkout:hover {
+  color: white;
+}
